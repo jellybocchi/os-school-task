@@ -1,4 +1,4 @@
-NAME := $(shell basename $(PWD))
+NAME := $(notdir $(CURDIR))
 export MODULE := M4
 all: $(NAME)-64 $(NAME)-32
 LDFLAGS += -ldl

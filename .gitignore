@@ -1,3 +1,6 @@
 /.shadow
-/Makefile
-/oslabs.mk
+*-64
+*-32
+*-64.so
+*-32.so
+build/
